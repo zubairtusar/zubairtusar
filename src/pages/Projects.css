@@ -1,7 +1,7 @@
 .projects {
   min-height: 100vh;
   padding: 2rem 0;
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  background: #f8f9fa;
 }
 
 .container {
@@ -11,14 +11,11 @@
 }
 
 .page-title {
-  font-size: 3rem;
+  font-size: 2.6rem;
   text-align: center;
   margin-bottom: 3rem;
   color: #2c3e50;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-weight: 700;
 }
 
 .projects-section,
@@ -50,7 +47,7 @@
 
 .project-card.featured {
   border-left-color: #e74c3c;
-  background: linear-gradient(135deg, #fff5f5 0%, #ffffff 100%);
+  background: white;
 }
 
 .project-card:hover {
@@ -82,7 +79,7 @@
 }
 
 .tag {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #2c3e50;
   color: white;
   padding: 0.3rem 0.8rem;
   border-radius: 15px;
@@ -162,13 +159,13 @@
 
 .project-link {
   padding: 0.7rem 1.5rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #2c3e50;
   color: white;
   text-decoration: none;
   border-radius: 25px;
   font-weight: 500;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
 }
 
 .project-link:hover {
@@ -271,7 +268,7 @@
 }
 
 .impact {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #2c3e50;
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 20px;

@@ -1,7 +1,7 @@
 .others {
   min-height: 100vh;
   padding: 2rem 0;
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  background: #f8f9fa;
 }
 
 .container {
@@ -11,14 +11,11 @@
 }
 
 .page-title {
-  font-size: 3rem;
+  font-size: 2.6rem;
   text-align: center;
   margin-bottom: 3rem;
   color: #2c3e50;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-weight: 700;
 }
 
 .skills-section,
@@ -81,21 +78,21 @@
 }
 
 .skill-item.expert {
-  background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
+  background: #27ae60;
   color: white;
-  box-shadow: 0 2px 8px rgba(39, 174, 96, 0.3);
+  box-shadow: 0 1px 6px rgba(39, 174, 96, 0.2);
 }
 
 .skill-item.advanced {
-  background: linear-gradient(135deg, #3498db 0%, #5dade2 100%);
+  background: #3498db;
   color: white;
-  box-shadow: 0 2px 8px rgba(52, 152, 219, 0.3);
+  box-shadow: 0 1px 6px rgba(52, 152, 219, 0.2);
 }
 
 .skill-item.intermediate {
-  background: linear-gradient(135deg, #f39c12 0%, #f7dc6f 100%);
+  background: #f39c12;
   color: white;
-  box-shadow: 0 2px 8px rgba(243, 156, 18, 0.3);
+  box-shadow: 0 1px 6px rgba(243, 156, 18, 0.2);
 }
 
 .skill-item:hover {
@@ -134,7 +131,7 @@
 }
 
 .reference-header .title {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #2c3e50;
   color: white;
   padding: 0.3rem 0.8rem;
   border-radius: 15px;
@@ -226,12 +223,12 @@
 }
 
 .proficiency.expert {
-  background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
+  background: #27ae60;
   color: white;
 }
 
 .proficiency.intermediate {
-  background: linear-gradient(135deg, #f39c12 0%, #f7dc6f 100%);
+  background: #f39c12;
   color: white;
 }
 

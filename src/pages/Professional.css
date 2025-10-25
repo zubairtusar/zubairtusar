@@ -1,7 +1,7 @@
 .professional {
   min-height: 100vh;
   padding: 2rem 0;
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  background: #f8f9fa;
 }
 
 .container {
@@ -11,14 +11,11 @@
 }
 
 .page-title {
-  font-size: 3rem;
+  font-size: 2.6rem;
   text-align: center;
   margin-bottom: 3rem;
   color: #2c3e50;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-weight: 700;
 }
 
 .experience-section,
@@ -62,7 +59,7 @@
 
 .company-link {
   padding: 0.5rem 1rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #2c3e50;
   color: white;
   text-decoration: none;
   border-radius: 20px;
@@ -80,14 +77,14 @@
   margin-bottom: 2rem;
   padding: 1.5rem;
   border-radius: 15px;
-  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
-  border-left: 5px solid #3498db;
+  background: white;
+  border-left: 5px solid #5a6c7d;
   transition: all 0.3s ease;
 }
 
 .position-card.current {
   border-left-color: #27ae60;
-  background: linear-gradient(135deg, #f0fff4 0%, #ffffff 100%);
+  background: #f0fff4;
 }
 
 .position-card:hover {
@@ -111,7 +108,7 @@
 }
 
 .duration {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #2c3e50;
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 20px;
@@ -120,7 +117,7 @@
 }
 
 .position-card.current .duration {
-  background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
+  background: #27ae60;
 }
 
 .portfolio-section {

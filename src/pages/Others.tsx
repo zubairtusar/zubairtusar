@@ -145,10 +145,6 @@ const Others: React.FC = () => {
                   <span className="language">Bengali</span>
                   <span className="proficiency expert">Native</span>
                 </div>
-                <div className="language-item">
-                  <span className="language">Hindi</span>
-                  <span className="proficiency intermediate">Conversational</span>
-                </div>
               </div>
             </div>
 

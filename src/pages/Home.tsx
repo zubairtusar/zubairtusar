@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import profileImage from '../assets/zbdp.png';
 
 const Home: React.FC = () => {
   return (
@@ -8,7 +9,7 @@ const Home: React.FC = () => {
         <div className="hero-content">
           <div className="profile-section">
             <img 
-              src="/zubair-dp.jpg" 
+              src={profileImage} 
               alt="Zubair Rahman Tusar" 
               className="profile-image"
             />
