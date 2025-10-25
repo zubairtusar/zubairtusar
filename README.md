@@ -1,74 +1,26 @@
 ## Hi there 👋
 
 <!--
-**zubairtusar/zubairtusar** is a ✨ _special_ ✨ repository because its `# Zubair Rahman Tusar - Portfolio Website
+**zubairtusar/zubairtusar** is a ✨ _special_ ✨ repository because its `# Zubair Rahman Tusar
 
-A modern, responsive portfolio website built with React and TypeScript, showcasing professional experience, academic achievements, projects, and skills.
+Personal portfolio website showcasing my professional experience, academic achievements, and projects in AI & Data Science.
 
-## 🚀 Live Demo
+## 🌐 Live Website
 
-Visit the live portfolio: [https://zubairtusar.github.io/zubairtusar](https://zubairtusar.github.io/zubairtusar)
+**[zubairtusar.github.io/zubairtusar](https://zubairtusar.github.io/zubairtusar)**
 
-## 🏗️ Built With
-
-- **React 18** with TypeScript
-- **React Router** for navigation
-- **CSS3** with modern gradients and animations
-- **GitHub Pages** for hosting
-- **GitHub Actions** for automated deployment
-
-## 📱 Features
-
-- **Responsive Design** - Works on desktop, tablet, and mobile
-- **Modern UI/UX** - Clean, professional layout with smooth animations
-- **Single Page Application** - Fast navigation between sections
-- **SEO Optimized** - Proper meta tags and structure
-- **Accessible** - WCAG compliant design
-
-## 🛠️ Development
-
-### Prerequisites
-
-- Node.js (v16 or higher)
-- npm or yarn
-
-### Installation
+## � Quick Start
 
 ```bash
-# Clone the repository
-git clone https://github.com/zubairtusar/zubairtusar.git
-
-# Navigate to project directory
-cd zubairtusar
-
-# Install dependencies
 npm install
-
-# Start development server
 npm start
 ```
 
-### Available Scripts
+## � Contact
 
-- `npm start` - Start development server
-- `npm build` - Build for production
-- `npm test` - Run tests
-- `npm run deploy` - Deploy to GitHub Pages
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 👤 Contact
-
-- **Email**: [zubairrahman@iut-dhaka.edu](mailto:zubairrahman@iut-dhaka.edu)
+- **Email**: zubairrahman@iut-dhaka.edu
 - **LinkedIn**: [linkedin.com/in/ztusar](https://linkedin.com/in/ztusar)
-- **GitHub**: [github.com/zubairtusar](https://github.com/zubairtusar)
-- **Google Scholar**: [Google Scholar Profile](https://scholar.google.com/citations?user=nRQqx3wAAAAJ)
-
----
-
-Built with ❤️ by Zubair Rahman Tusar` (this file) appears on your GitHub profile.
+- **GitHub**: [github.com/zubairtusar](https://github.com/zubairtusar)` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
