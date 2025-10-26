@@ -38,10 +38,10 @@ const Header: React.FC = () => {
             Projects
           </NavLink>
           <NavLink 
-            to="/others" 
+            to="/passions" 
             className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
           >
-            Others
+            Passions
           </NavLink>
         </nav>
       </div>

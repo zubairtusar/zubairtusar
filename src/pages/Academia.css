@@ -263,6 +263,120 @@
   font-size: 1.2rem;
 }
 
+/* Technical Skills Section */
+.technical-skills-section,
+.interests-section,
+.references-section {
+  margin-bottom: 4rem;
+}
+
+.technical-skills-section h2,
+.interests-section h2,
+.references-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+  border-bottom: 3px solid #5a6c7d;
+  padding-bottom: 0.5rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.skill-category {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.skill-category:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.skill-category h3 {
+  color: #2c3e50;
+  margin: 0 0 1.5rem 0;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.skill-item {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.skill-item.expert {
+  background: #27ae60;
+  color: white;
+  box-shadow: 0 1px 6px rgba(39, 174, 96, 0.2);
+}
+
+.skill-item.advanced {
+  background: #3498db;
+  color: white;
+  box-shadow: 0 1px 6px rgba(52, 152, 219, 0.2);
+}
+
+.skill-item.intermediate {
+  background: #f39c12;
+  color: white;
+  box-shadow: 0 1px 6px rgba(243, 156, 18, 0.2);
+}
+
+.skill-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.interests-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.interest-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+  border-top: 4px solid #3498db;
+}
+
+.interest-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.interest-card h4 {
+  color: #2c3e50;
+  margin: 0 0 1rem 0;
+  font-size: 1.2rem;
+}
+
+.interest-card p {
+  color: #666;
+  margin: 0;
+  line-height: 1.6;
+}
+
 @media (max-width: 768px) {
   .container {
     padding: 0 1rem;
@@ -284,6 +398,14 @@
   }
   
   .coursework-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .interests-grid {
     grid-template-columns: 1fr;
   }
   

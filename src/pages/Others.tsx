@@ -1,223 +1,147 @@
 import React from 'react';
 import './Others.css';
+import poltuImage from '../assets/poltu.png';
+import peronaImage from '../assets/perona.png';
+import putiImage from '../assets/puti.png';
+import flickrImage from '../assets/flickr.jpg';
+import behanceImage from '../assets/behance.png';
 
 const Others: React.FC = () => {
   return (
     <div className="others">
       <div className="container">
-        <h1 className="page-title">Skills & Additional Information</h1>
+        <h1 className="page-title">My Passions</h1>
         
-        <section className="skills-section">
-          <h2>Technical Skills</h2>
+        <section className="intro-section">
+          <div className="intro-card">
+            <p className="intro-text">
+              Beyond AI and data science, I express myself through <strong>photography</strong> and 
+              <strong> graphic design</strong>. I work with lighting, composition, post-processing, and Adobe's creative 
+              suite, creating in the moment. I'm also a proud parent to three amazing cats who remind me that 
+              life happens now, not later.
+            </p>
+          </div>
+        </section>
+
+        <section className="creative-section">
+          <h2>🎨 Creative Work</h2>
           
-          <div className="skills-grid">
-            <div className="skill-category">
-              <h3>🤖 Vision & Machine Learning</h3>
-              <div className="skills-list">
-                <span className="skill-item expert">PyTorch</span>
-                <span className="skill-item expert">TensorFlow</span>
-                <span className="skill-item expert">OpenCV</span>
-                <span className="skill-item advanced">YOLO Detection</span>
-                <span className="skill-item advanced">OCR</span>
-                <span className="skill-item expert">LSTM/RNN</span>
-                <span className="skill-item advanced">Contextual Bandits</span>
+          <div className="creative-grid">
+            <div className="creative-card photography">
+              <div className="creative-header">
+                <h3>📸 Photography</h3>
+                <span className="badge">Former IUTPS Head</span>
               </div>
+              <div className="creative-image-wrapper">
+                <img src={flickrImage} alt="Photography Portfolio" className="creative-image" />
+              </div>
+              <div className="creative-body">
+                <p>
+                  Capturing moments through the lens is how I stay present. From street photography 
+                  to portraits, I focus on composition, lighting, and storytelling as they happen. 
+                  My time as <strong> Head of Creative Fields at IUTPS</strong> and <strong>VP Photography at Neutrino ACC</strong> 
+                  taught me that the best shots come from being fully in the now.
+                </p>
+                <div className="skills-tags">
+                  <span>Composition</span>
+                  <span>Lighting</span>
+                  <span>Post-Processing</span>
+                  <span>Visual Storytelling</span>
+                </div>
+              </div>
+              <a href="https://flickr.com/photos/138682360@N04/" target="_blank" rel="noopener noreferrer" className="portfolio-button">
+                📷 View Flickr Gallery
+              </a>
             </div>
 
-            <div className="skill-category">
-              <h3>🧠 LLM Systems</h3>
-              <div className="skills-list">
-                <span className="skill-item expert">Prompt Engineering</span>
-                <span className="skill-item expert">Context Engineering</span>
-                <span className="skill-item advanced">Retrieval Strategies</span>
-                <span className="skill-item advanced">Vectorization</span>
-                <span className="skill-item expert">RAG</span>
-                <span className="skill-item advanced">Agentic Systems</span>
-                <span className="skill-item advanced">LLM APIs</span>
+            <div className="creative-card design">
+              <div className="creative-header">
+                <h3>🎨 Graphic Design</h3>
+                <span className="badge">Adobe Suite</span>
+              </div>
+              <div className="creative-image-wrapper">
+                <img src={behanceImage} alt="Design Portfolio" className="creative-image" />
+              </div>
+              <div className="creative-body">
+                <p>
+                  My design work complements my photography, allowing me to craft complete visual stories 
+                  in the present. I work with Adobe's creative tools, color theory, and layout composition, 
+                  transforming ideas into visuals today. From photo manipulation to digital art, 
+                  I enjoy the creative process as it unfolds.
+                </p>
+                <div className="skills-tags">
+                  <span>Adobe Creative Suite</span>
+                  <span>Color Theory</span>
+                  <span>Visual Design</span>
+                  <span>Layout Composition</span>
+                </div>
+              </div>
+              <a href="https://www.behance.net/zubairtusar" target="_blank" rel="noopener noreferrer" className="portfolio-button">
+                🎨 View Behance Portfolio
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section className="pets-section">
+          <h2>🐾 My Furry Companions</h2>
+          
+          <div className="cats-grid">
+            <div className="cat-card">
+              <div className="cat-image-wrapper">
+                <img src={poltuImage} alt="Poltu" className="cat-image" />
+              </div>
+              <div className="cat-info">
+                <h4>Poltu</h4>
+                <p>The adventurous explorer</p>
               </div>
             </div>
-
-            <div className="skill-category">
-              <h3>📊 Data & Geospatial</h3>
-              <div className="skills-list">
-                <span className="skill-item expert">SQL</span>
-                <span className="skill-item advanced">PySpark</span>
-                <span className="skill-item advanced">GeoPandas</span>
-                <span className="skill-item expert">Spatial Indexing</span>
-                <span className="skill-item advanced">KD/Ball Tree</span>
-                <span className="skill-item advanced">Tableau</span>
+            
+            <div className="cat-card">
+              <div className="cat-image-wrapper">
+                <img src={peronaImage} alt="Perona" className="cat-image" />
+              </div>
+              <div className="cat-info">
+                <h4>Perona</h4>
+                <p>The gentle soul</p>
               </div>
             </div>
-
-            <div className="skill-category">
-              <h3>🔧 Infrastructure & Web</h3>
-              <div className="skills-list">
-                <span className="skill-item advanced">Docker</span>
-                <span className="skill-item intermediate">Kubernetes</span>
-                <span className="skill-item advanced">Streamlit</span>
-                <span className="skill-item advanced">Next.js</span>
-                <span className="skill-item advanced">React</span>
-                <span className="skill-item advanced">Flask</span>
-                <span className="skill-item intermediate">Azure</span>
-                <span className="skill-item intermediate">AWS</span>
+            
+            <div className="cat-card">
+              <div className="cat-image-wrapper">
+                <img src={putiImage} alt="Puti" className="cat-image" />
               </div>
-            </div>
-
-            <div className="skill-category">
-              <h3>💻 Programming Languages</h3>
-              <div className="skills-list">
-                <span className="skill-item expert">Python</span>
-                <span className="skill-item advanced">C/C++</span>
-                <span className="skill-item advanced">JavaScript</span>
-                <span className="skill-item expert">SQL</span>
-                <span className="skill-item intermediate">TypeScript</span>
+              <div className="cat-info">
+                <h4>Puti</h4>
+                <p>The house princess</p>
               </div>
             </div>
           </div>
         </section>
 
-        <section className="references-section">
-          <h2>References</h2>
-          
-          <div className="references-grid">
-            <div className="reference-card">
-              <div className="reference-header">
-                <h4>Mohayeminul Islam</h4>
-                <span className="title">Assistant Professor</span>
-              </div>
-              <p className="institution">Islamic University of Technology</p>
-              <div className="contact-info">
-                <a href="mailto:mohayemin@iut-dhaka.edu" className="contact-link">
-                  📧 mohayemin@iut-dhaka.edu
-                </a>
-              </div>
-              <div className="reference-context">
-                <p>Academic advisor and mentor during undergraduate studies in Software Engineering.</p>
-              </div>
-            </div>
-
-            <div className="reference-card">
-              <div className="reference-header">
-                <h4>Syed Md Taukir Imam</h4>
-                <span className="title">Senior General Manager</span>
-              </div>
-              <p className="institution">AI & Data Science, Robi Axiata Limited</p>
-              <div className="contact-info">
-                <a href="mailto:syed.taukir@robi.com.bd" className="contact-link">
-                  📧 syed.taukir@robi.com.bd
-                </a>
-              </div>
-              <div className="reference-context">
-                <p>Direct supervisor and mentor in AI & Data Science initiatives at Robi Axiata.</p>
-              </div>
-            </div>
-
-            <div className="reference-card">
-              <div className="reference-header">
-                <h4>Raihan Alam</h4>
-                <span className="title">Senior Data Engineer</span>
-              </div>
-              <p className="institution">Microsoft</p>
-              <div className="contact-info">
-                <a href="mailto:raihan.alam@gmail.com" className="contact-link">
-                  📧 raihan.alam@gmail.com
-                </a>
-              </div>
-              <div className="reference-context">
-                <p>Professional colleague and industry mentor in data engineering and cloud technologies.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="additional-info">
-          <h2>Additional Information</h2>
-          
-          <div className="info-grid">
-            <div className="info-card language">
+        <section className="footer-info">
+          <div className="footer-grid">
+            <div className="footer-card">
               <h4>🌐 Languages</h4>
-              <div className="language-skills">
-                <div className="language-item">
-                  <span className="language">English</span>
-                  <span className="proficiency expert">IELTS 7.5</span>
+              <div className="language-list">
+                <div className="lang-item">
+                  <span>English</span>
+                  <strong>IELTS 7.5</strong>
                 </div>
-                <div className="language-item">
-                  <span className="language">Bengali</span>
-                  <span className="proficiency expert">Native</span>
+                <div className="lang-item">
+                  <span>Bengali</span>
+                  <strong>Native</strong>
                 </div>
               </div>
             </div>
 
-            <div className="info-card interests">
-              <h4>🎯 Professional Interests</h4>
-              <ul>
-                <li>Agentic AI Systems</li>
-                <li>Large Language Models</li>
-                <li>Geospatial Intelligence</li>
-                <li>Edge Computing</li>
-                <li>Computer Vision Applications</li>
-                <li>MLOps & Production ML</li>
-              </ul>
-            </div>
-
-            <div className="info-card hobbies">
-              <h4>📸 Hobbies & Interests</h4>
-              <ul>
-                <li>Photography (Former IUTPS Head)</li>
-                <li>Technology Research</li>
-                <li>Open Source Contribution</li>
-                <li>Scientific Writing</li>
-                <li>Workshop Facilitation</li>
-                <li>Mentoring Students</li>
-              </ul>
-            </div>
-
-            <div className="info-card volunteering">
-              <h4>🤝 Leadership & Volunteering</h4>
-              <ul>
-                <li>Student Mentor - Wireframing & Prototyping</li>
-                <li>Head of Creative Fields - IUTPS</li>
-                <li>VP Photography - Neutrino ACC Science Club</li>
-                <li>Workshop Leader - Generative AI</li>
-                <li>Peer Review Champion - Hall of Honor</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        <section className="contact-section">
-          <h2>Get In Touch</h2>
-          
-          <div className="contact-grid">
-            <div className="contact-card">
-              <h4>📍 Location</h4>
-              <p>Dhaka, Bangladesh</p>
-            </div>
-            
-            <div className="contact-card">
-              <h4>📧 Email</h4>
-              <a href="mailto:zubairrahman@iut-dhaka.edu">zubairrahman@iut-dhaka.edu</a>
-            </div>
-            
-            <div className="contact-card">
-              <h4>💼 LinkedIn</h4>
-              <a href="https://linkedin.com/in/ztusar" target="_blank" rel="noopener noreferrer">
-                linkedin.com/in/ztusar
-              </a>
-            </div>
-            
-            <div className="contact-card">
-              <h4>💻 GitHub</h4>
-              <a href="https://github.com/zubairtusar" target="_blank" rel="noopener noreferrer">
-                github.com/zubairtusar
-              </a>
-            </div>
-            
-            <div className="contact-card">
-              <h4>🎓 Google Scholar</h4>
-              <a href="https://scholar.google.com/citations?user=nRQqx3wAAAAJ" target="_blank" rel="noopener noreferrer">
-                View Publications
-              </a>
+            <div className="footer-card philosophy">
+              <h4>🎯 Life Philosophy</h4>
+              <p>
+                Balance technical expertise with creative expression; See the world through multiple lenses; 
+                Find beauty in both data and nature; Create in the present moment; 
+                Next time is next time, now is now...
+              </p>
             </div>
           </div>
         </section>

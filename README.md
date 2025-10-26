@@ -9,11 +9,22 @@
 
 ---
 
+# Zubair Rahman Tusar
+
+**Manager, AI & Data Science** | **Machine Learning Engineer** | **Researcher**
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/ztusar)
+[![Google Scholar](https://img.shields.io/badge/-Google%20Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=nRQqx3wAAAAJ)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:zubairrahman@iut-dhaka.edu)
+[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat&logo=github&logoColor=white)](https://zubairtusar.github.io/zubairtusar)
+
+---
+
 ## 🚀 About Me
 
-I'm an AI & Data Science professional with **2.5+ years** of experience building production-scale machine learning systems at **Robi Axiata Limited** (leading telecom in Bangladesh). I specialize in **contextual AI systems**, **geospatial analytics**, and **agentic LLM applications**, with a proven track record of delivering high-impact solutions that drive business value.
+I'm focused on building AI systems that matter today. With **2.5+ years** at **Robi Axiata Limited**, I work on production-scale machine learning, **contextual AI**, **geospatial analytics**, and **agentic LLM applications**, solving real problems right now while learning what comes next.
 
-🎯 **Current Focus**: Leading AI strategy and implementation across customer analytics, network optimization, and generative AI initiatives  
+🎯 **Present Focus**: Delivering AI solutions across customer analytics, network optimization, and generative AI  
 📍 **Location**: Dhaka, Bangladesh  
 🎓 **Education**: B.Sc in Software Engineering, Islamic University of Technology (CGPA: 3.64/4.00)
 
@@ -23,31 +34,31 @@ I'm an AI & Data Science professional with **2.5+ years** of experience building
 
 ### 🏢 **Robi Axiata Limited** | *Manager, AI and Data Science* | *Feb 2024 – Present*
 
-**Leading AI transformation across multiple business verticals:**
+**Building AI solutions that deliver value today:**
 
 #### 🎯 **Customer Portfolio**
-- **ARPU Enhancer**: Designed contextual multi-armed bandit system integrated with offer-recommendation engine
-- **Offer Response Model**: Built custom LSTM achieving ~70% recall for customer behavior prediction
-- **Customer Segmentation**: Performed 360° analysis of 50M+ customers using statistical modeling
+- **ARPU Enhancer**: Designing contextual multi-armed bandit system for immediate offer optimization
+- **Offer Response Model**: Deployed custom LSTM achieving ~70% recall in current production
+- **Customer Segmentation**: Analyzing 50M+ customers to enable targeted actions now
 
 #### 📡 **Network Portfolio** 
-- **Coverage Monitor**: Revolutionized geospatial analysis using KD/Ball-tree indexing (2 weeks → 2 hours processing)
-- **Site Recommender**: Implemented set-cover optimization achieving **58% business potential gain**
-- **Propagation Model**: Developed urbanization-aware network regressor (~200m RMSE)
+- **Coverage Monitor**: Transformed geospatial analysis from 2 weeks to 2 hours, decisions happen faster
+- **Site Recommender**: Delivered **58% business potential gain** through set-cover optimization
+- **Propagation Model**: Created urbanization-aware regressor (~200m RMSE) for today's network planning
 
 #### 🤖 **Generative AI Leadership**
-- Co-led organization-wide **GenAI adoption strategy**
-- Conducted hands-on workshops on **prompt engineering** and **RAG systems**
+- Leading **GenAI adoption** across the organization as it happens
+- Running hands-on workshops on **prompt engineering** and **RAG systems**
 
-#### 🎖️ **Recognition**: Top 5% performer | 6× Star Performer (consecutive quarters) | Divisional Champion
+#### 🎖️ **Recognition**: Top 5% performer | 6× Star Performer | Divisional Champion
 
 ---
 
 ### 🔬 **Intelligent Machines Ltd** | *AI Engineer* | *May 2021 – Sep 2022*
 
-- **Production Quality System**: Real-time fault detection using computer vision (color quantization + edge detection)
-- **Document Verification**: Identity fraud detection system using OCR and edge-detection
-- **Synthetic Data Generation**: Collaborated on GTA V-based synthetic data for Bangla license plate detection
+- **Production Quality System**: Built real-time fault detection using computer vision
+- **Document Verification**: Created identity fraud detection with OCR and edge-detection
+- **Synthetic Data Generation**: Worked on GTA V-based synthetic data for license plate detection
 
 ---
 
@@ -69,22 +80,22 @@ I'm an AI & Data Science professional with **2.5+ years** of experience building
 
 ### 🤖 **Paralegal Agent & Visa Petition System**
 **Agentic AI | RAG | Full-Stack Development**
-- Multi-agent orchestration with **n8n workflows**
+- Multi-agent orchestration with **n8n workflows** operating in real-time
 - PDF/form ingestion with automated fact extraction
 - **Next.js/React** frontend with **Supabase** backend
-- Vector search and document versioning capabilities
+- Vector search delivering instant document retrieval
 
 ### 📱 **Movement-Monitoring Wearable**
 **Edge AI | IoT | Healthcare**
-- On-device anomaly detection for patient monitoring
+- On-device anomaly detection providing immediate patient insights
 - **Raspberry Pi Zero W** + **MPU-9250 IMU**
-- Real-time inference with caregiver alert system
+- Real-time inference with instant caregiver alerts
 - [🔗 GitHub Repository](https://github.com/zubairtusar/movement_recognition_system)
 
 ### 🏪 **Trade Visibility System** *(Professional)*
 **Computer Vision | Production Scale**
-- End-to-end monitoring across **700k+ retail outlets**
-- Object detection models with **~75% recall** in production
+- Monitoring **700k+ retail outlets** continuously
+- Object detection models with **~75% recall** running in production
 - Real-time brand material visibility tracking
 
 ---
@@ -93,7 +104,7 @@ I'm an AI & Data Science professional with **2.5+ years** of experience building
 
 ### 🎖️ **Professional Awards**
 - **Top 5%** performer in 2023-2024 evaluations
-- **6× Star Performer** (Q1'23 - Q3'24) for consecutive deliveries
+- **6× Star Performer** (Q1'23 - Q3'24) for consistent delivery
 - **Divisional Champion** - Hall of Honor for innovation & collaboration
 
 ### 🏅 **Competition Success**
@@ -146,7 +157,7 @@ skills = {
 
 ## 🤝 Let's Connect!
 
-I'm always excited to discuss **AI innovations**, **machine learning applications**, and potential **collaborations**. Whether you're interested in:
+I'm interested in discussions about what we can build **today**, **AI innovations**, **machine learning applications**, and **collaborations** that create value now. Whether you're working on:
 
 - 🤖 **Agentic AI Systems** and **RAG implementations**
 - 📊 **Production ML** at scale
@@ -154,7 +165,7 @@ I'm always excited to discuss **AI innovations**, **machine learning application
 - 🔬 **Research collaborations**
 - 💼 **AI strategy** and implementation
 
-Feel free to reach out!
+Let's talk about the present possibilities.
 
 [![LinkedIn](https://img.shields.io/badge/-Connect%20on%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ztusar)
 [![Email](https://img.shields.io/badge/-Send%20Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zubairrahman@iut-dhaka.edu)
@@ -164,8 +175,10 @@ Feel free to reach out!
 
 <div align="center">
 
-**⭐ "Building the future, one algorithm at a time" ⭐**
+![Life Motto](src/assets/life_motto.jpg)
 
-*Last updated: October 2024*
+**"Next time is next time. Now is now."**
+
+*,  Perfect Days*
 
 </div>

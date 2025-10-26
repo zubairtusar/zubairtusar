@@ -16,9 +16,9 @@ const Academia: React.FC = () => {
               <p className="authors">
                 <strong>Zubair Tusar</strong>, Sadat Bin Sharfuddin, Muhtasim Abid, Md. Haque, Md. Mostafa
               </p>
-              <p className="venue">ICSOFT 2023 - Volume 1 [Conference]</p>
+              <p className="venue"><strong>ICSOFT 2023</strong> - Volume 1 [Conference]</p>
               <div className="publication-description">
-                <p>Proposed SE-vocabulary augmentation and transformer ensembling for sentiment polarity, improving weighted/macro F1 by 1–26% on four SE datasets over prior baselines.</p>
+                <p>Proposed SE-vocabulary augmentation and transformer ensembling for sentiment polarity, improving weighted/macro F1 by <strong>1–26%</strong> on four SE datasets over prior baselines.</p>
               </div>
               <a href="https://www.scitepress.org/Link.aspx?doi=10.5220/0012092500003538" target="_blank" rel="noopener noreferrer" className="publication-link">
                 View Publication
@@ -32,9 +32,9 @@ const Academia: React.FC = () => {
               <p className="authors">
                 <strong>Zubair Tusar</strong>, Maksuda Islam, Sadia Sharmin
               </p>
-              <p className="venue">UbiComp/ISWC'21 Adjunct [Workshop, non-archival]</p>
+              <p className="venue"><strong>UbiComp/ISWC'21</strong> Adjunct [Workshop, non-archival]</p>
               <div className="publication-description">
-                <p>Built a smartphone-accelerometer HAR system with denoising filters, overlapping windows, multi-domain features, and RF battling high data/label noise.</p>
+                <p>Built a smartphone-accelerometer HAR system with denoising filters, overlapping windows, multi-domain features, and <strong>RF</strong> battling high data/label noise.</p>
               </div>
               <a href="https://dl.acm.org/doi/10.1145/3460418.3479390" target="_blank" rel="noopener noreferrer" className="publication-link">
                 View Publication
@@ -51,8 +51,8 @@ const Academia: React.FC = () => {
               <h3>B.Sc in Software Engineering</h3>
               <span className="duration">Jan 2018 – Apr 2022</span>
             </div>
-            <p className="institution">Islamic University of Technology, Gazipur, Bangladesh</p>
-            <p className="gpa">CGPA 3.64/4.00 (last 4 semesters: 3.88)</p>
+            <p className="institution"><strong>Islamic University of Technology</strong>, Gazipur, Bangladesh</p>
+            <p className="gpa"><strong>CGPA 3.64/4.00</strong> (last 4 semesters: <strong>3.88</strong>)</p>
             
             <div className="coursework">
               <h4>Notable Coursework:</h4>
@@ -99,7 +99,7 @@ const Academia: React.FC = () => {
             <div className="leadership">
               <h4>Leadership Roles:</h4>
               <ul>
-                <li><strong>Student Mentor</strong> - Conducted applied sessions on wireframing and prototyping</li>
+                <li><strong>Student Mentor</strong> - Guided students through applied sessions on wireframing and prototyping</li>
                 <li><strong>Head of Creative Fields</strong> - Islamic University of Technology Photography Society (IUTPS)</li>
               </ul>
             </div>
@@ -110,13 +110,13 @@ const Academia: React.FC = () => {
               <h3>Higher Secondary School Certificate</h3>
               <span className="duration">Jun 2015 – Apr 2017</span>
             </div>
-            <p className="institution">Adamjee Cantonment College, Dhaka, Bangladesh</p>
-            <p className="gpa">GPA 5.00/5.00</p>
+            <p className="institution"><strong>Adamjee Cantonment College</strong>, Dhaka, Bangladesh</p>
+            <p className="gpa"><strong>GPA 5.00/5.00</strong></p>
             
             <div className="leadership">
               <h4>Leadership Roles:</h4>
               <ul>
-                <li><strong>Vice President of Photography</strong> - Neutrino ACC Science Club - Covered event photographs and managed photography wing of the club</li>
+                <li><strong>Vice President of Photography</strong> - Neutrino ACC Science Club - Covered event photographs and led photography initiatives</li>
               </ul>
             </div>
           </div>
@@ -130,7 +130,7 @@ const Academia: React.FC = () => {
             <div className="test-scores">
               <div className="overall-score">
                 <span className="score-label">Overall Band Score:</span>
-                <span className="score-value">7.5</span>
+                <span className="score-value"><strong>7.5</strong></span>
               </div>
               <div className="individual-scores">
                 <div className="score-item">
@@ -150,6 +150,105 @@ const Academia: React.FC = () => {
                   <span>6.5</span>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="technical-skills-section">
+          <h2>Technical Skills</h2>
+          
+          <div className="skills-grid">
+            <div className="skill-category">
+              <h3>🤖 Vision & Machine Learning</h3>
+              <div className="skills-list">
+                <span className="skill-item expert">PyTorch</span>
+                <span className="skill-item expert">TensorFlow</span>
+                <span className="skill-item expert">OpenCV</span>
+                <span className="skill-item advanced">YOLO Detection</span>
+                <span className="skill-item advanced">OCR</span>
+                <span className="skill-item expert">LSTM/RNN</span>
+                <span className="skill-item advanced">Contextual Bandits</span>
+              </div>
+            </div>
+
+            <div className="skill-category">
+              <h3>📊 Data & Geospatial</h3>
+              <div className="skills-list">
+                <span className="skill-item expert">SQL</span>
+                <span className="skill-item advanced">PySpark</span>
+                <span className="skill-item advanced">GeoPandas</span>
+                <span className="skill-item expert">Spatial Indexing</span>
+                <span className="skill-item advanced">KD/Ball Tree</span>
+                <span className="skill-item advanced">Tableau</span>
+              </div>
+            </div>
+
+            <div className="skill-category">
+              <h3>🧠 LLM Systems</h3>
+              <div className="skills-list">
+                <span className="skill-item expert">Prompt Engineering</span>
+                <span className="skill-item expert">Context Engineering</span>
+                <span className="skill-item advanced">Retrieval Strategies</span>
+                <span className="skill-item advanced">Vectorization</span>
+                <span className="skill-item expert">RAG</span>
+                <span className="skill-item advanced">Agentic Systems</span>
+                <span className="skill-item advanced">LLM APIs</span>
+              </div>
+            </div>
+
+            <div className="skill-category">
+              <h3>🔧 Infrastructure & Web</h3>
+              <div className="skills-list">
+                <span className="skill-item advanced">Docker</span>
+                <span className="skill-item intermediate">Kubernetes</span>
+                <span className="skill-item advanced">Streamlit</span>
+                <span className="skill-item advanced">Next.js</span>
+                <span className="skill-item advanced">React</span>
+                <span className="skill-item advanced">Flask</span>
+                <span className="skill-item intermediate">Azure</span>
+                <span className="skill-item intermediate">AWS</span>
+              </div>
+            </div>
+
+            <div className="skill-category">
+              <h3>💻 Programming Languages</h3>
+              <div className="skills-list">
+                <span className="skill-item expert">Python</span>
+                <span className="skill-item advanced">C/C++</span>
+                <span className="skill-item advanced">JavaScript</span>
+                <span className="skill-item expert">SQL</span>
+                <span className="skill-item intermediate">TypeScript</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="interests-section">
+          <h2>Research Interests</h2>
+          <div className="interests-grid">
+            <div className="interest-card">
+              <h4>👁️ Computer Vision</h4>
+              <p>Real-world CV applications and visual recognition systems</p>
+            </div>
+            <div className="interest-card">
+              <h4>� Agentic AI Systems</h4>
+              <p>Exploring autonomous AI agents and multi-agent systems</p>
+            </div>
+            <div className="interest-card">
+              <h4>🗺️ Geospatial Intelligence</h4>
+              <p>Spatial data analysis and location-based AI solutions</p>
+            </div>
+            <div className="interest-card">
+              <h4>🧠 Large Language Models</h4>
+              <p>Advanced LLM applications and optimization techniques</p>
+            </div>
+            <div className="interest-card">
+              <h4>� MLOps & Production ML</h4>
+              <p>Deploying and maintaining ML systems at scale</p>
+            </div>
+            <div className="interest-card">
+              <h4>� Edge Computing</h4>
+              <p>AI at the edge and resource-constrained environments</p>
             </div>
           </div>
         </section>
