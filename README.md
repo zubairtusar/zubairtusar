@@ -1,6 +1,6 @@
 # Zubair Rahman Tusar
 
-**Manager, AI & Data Science** | **Machine Learning Engineer** | **Researcher**
+**Manager, AI & Data Science** | **Researcher**
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/ztusar)
 [![Google Scholar](https://img.shields.io/badge/-Google%20Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=nRQqx3wAAAAJ)
@@ -9,20 +9,21 @@
 
 ---
 
-# Zubair Rahman Tusar
+<div align="center">
 
-**Manager, AI & Data Science** | **Machine Learning Engineer** | **Researcher**
+![Life Motto](src/assets/life_motto.jpg)
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/ztusar)
-[![Google Scholar](https://img.shields.io/badge/-Google%20Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=nRQqx3wAAAAJ)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:zubairrahman@iut-dhaka.edu)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat&logo=github&logoColor=white)](https://zubairtusar.github.io/zubairtusar)
+**"Kondo wa kondo, Ima wa ima"**
+
+*,  Perfect Days*
+
+</div>
 
 ---
 
 ## 🚀 About Me
 
-I'm focused on building AI systems that matter today. With **2.5+ years** at **Robi Axiata Limited**, I work on production-scale machine learning, **contextual AI**, **geospatial analytics**, and **agentic LLM applications**, solving real problems right now while learning what comes next.
+I'm focused on building AI systems that matter today. With **3+ years** at **Robi Axiata Limited**, I work on production-scale machine learning, **contextual AI**, **geospatial analytics**, and **agentic LLM applications**, solving real problems right now while learning what comes next.
 
 🎯 **Present Focus**: Delivering AI solutions across customer analytics, network optimization, and generative AI  
 📍 **Location**: Dhaka, Bangladesh  
@@ -157,28 +158,9 @@ skills = {
 
 ## 🤝 Let's Connect!
 
-I'm interested in discussions about what we can build **today**, **AI innovations**, **machine learning applications**, and **collaborations** that create value now. Whether you're working on:
-
-- 🤖 **Agentic AI Systems** and **RAG implementations**
-- 📊 **Production ML** at scale
-- 🗺️ **Geospatial analytics** and optimization
-- 🔬 **Research collaborations**
-- 💼 **AI strategy** and implementation
-
-Let's talk about the present possibilities.
-
 [![LinkedIn](https://img.shields.io/badge/-Connect%20on%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ztusar)
 [![Email](https://img.shields.io/badge/-Send%20Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zubairrahman@iut-dhaka.edu)
 [![Portfolio](https://img.shields.io/badge/-View%20Portfolio-000000?style=for-the-badge&logo=github&logoColor=white)](https://zubairtusar.github.io/zubairtusar)
 
 ---
 
-<div align="center">
-
-![Life Motto](src/assets/life_motto.jpg)
-
-**"Next time is next time. Now is now."**
-
-*,  Perfect Days*
-
-</div>
