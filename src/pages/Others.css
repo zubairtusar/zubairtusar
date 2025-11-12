@@ -22,19 +22,15 @@
   margin-bottom: 3rem;
 }
 
-.intro-card {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  padding: 2rem;
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-}
-
 .intro-text {
-  color: white;
+  color: #555;
   font-size: 1.1rem;
   line-height: 1.8;
   margin: 0;
   text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Creative Section */
@@ -207,7 +203,7 @@
 }
 
 .cat-info p {
-  color: #666;
+  color: #555;
   font-size: 0.95rem;
   margin: 0;
   font-style: italic;
@@ -241,21 +237,30 @@
 
 .lang-item {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
   padding: 0.7rem 1rem;
   background: #f8f9fa;
   border-radius: 10px;
   border-left: 4px solid #3498db;
 }
 
-.lang-item span {
+.lang-item > span {
   color: #555;
+  font-weight: 500;
 }
 
 .lang-item strong {
   color: #27ae60;
   font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.ielts-breakdown {
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 0.3rem;
+  font-weight: normal;
 }
 
 .footer-card.philosophy p {

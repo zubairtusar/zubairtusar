@@ -1,11 +1,19 @@
 import React from 'react';
 import './Home.css';
 import profileImage from '../assets/zbdp.png';
+import coverImage from '../assets/cover.png';
 
 const Home: React.FC = () => {
   return (
     <div className="home">
       <div className="hero-section">
+        <div className="cover-photo">
+          <img 
+            src={coverImage} 
+            alt="Cover" 
+            className="cover-image"
+          />
+        </div>
         <div className="hero-content">
           <div className="profile-section">
             <img 
@@ -90,11 +98,11 @@ const Home: React.FC = () => {
           <div className="recent-achievements">
             <h3>Recent Achievements</h3>
             <ul>
-              <li>🏆 Awarded Divisional Champion in Hall of Honor for innovation and collaboration</li>
-              <li>⭐ Star performer for Q3'2024 for delivering nation-wide site recommendation rollout</li>
-              <li>🤖 Leading organization-wide generative AI adoption happening right now</li>
-              <li>📊 Developed network propagation models with ~200 Meter RMSE accuracy in production</li>
-              <li>💡 Implemented multi-armed bandit systems currently driving ARPU enhancement</li>
+              <li>🏆 Awarded <strong>Divisional Champion</strong> in <strong>Hall of Honor</strong> for innovation and collaboration</li>
+              <li>⭐ <strong>Star performer</strong> for <strong>Q3'2024</strong> for delivering <strong>nation-wide site recommendation rollout</strong></li>
+              <li>🤖 Leading <strong>organization-wide generative AI adoption</strong> happening right now</li>
+              <li>📊 Developed <strong>network propagation models</strong> with <strong>~200 Meter RMSE accuracy</strong> in production</li>
+              <li>💡 Implemented <strong>multi-armed bandit systems</strong> currently driving <strong>ARPU enhancement</strong></li>
             </ul>
           </div>
         </div>

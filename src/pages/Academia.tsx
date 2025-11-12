@@ -51,7 +51,13 @@ const Academia: React.FC = () => {
               <h3>B.Sc in Software Engineering</h3>
               <span className="duration">Jan 2018 – Apr 2022</span>
             </div>
-            <p className="institution"><strong>Islamic University of Technology</strong>, Gazipur, Bangladesh</p>
+            <p className="institution">
+              <strong>
+                <a href="https://www.iutoic-dhaka.edu/" target="_blank" rel="noopener noreferrer">
+                  Islamic University of Technology
+                </a>
+              </strong>, Gazipur, Bangladesh
+            </p>
             <p className="gpa"><strong>CGPA 3.64/4.00</strong> (last 4 semesters: <strong>3.88</strong>)</p>
             
             <div className="coursework">
@@ -110,7 +116,13 @@ const Academia: React.FC = () => {
               <h3>Higher Secondary School Certificate</h3>
               <span className="duration">Jun 2015 – Apr 2017</span>
             </div>
-            <p className="institution"><strong>Adamjee Cantonment College</strong>, Dhaka, Bangladesh</p>
+            <p className="institution">
+              <strong>
+                <a href="https://acc.edu.bd/" target="_blank" rel="noopener noreferrer">
+                  Adamjee Cantonment College
+                </a>
+              </strong>, Dhaka, Bangladesh
+            </p>
             <p className="gpa"><strong>GPA 5.00/5.00</strong></p>
             
             <div className="leadership">
@@ -130,24 +142,24 @@ const Academia: React.FC = () => {
             <div className="test-scores">
               <div className="overall-score">
                 <span className="score-label">Overall Band Score:</span>
-                <span className="score-value"><strong>7.5</strong></span>
+                <span className="score-value"><strong>8.0 / 9.0</strong></span>
               </div>
               <div className="individual-scores">
-                <div className="score-item">
-                  <span>Speaking:</span>
-                  <span>8.0</span>
+                <div className="score-item" data-score="100">
+                  <span>Speaking: 9.0 / 9.0</span>
+                  <span className="score-bar"></span>
                 </div>
-                <div className="score-item">
-                  <span>Listening:</span>
-                  <span>7.5</span>
+                <div className="score-item" data-score="89">
+                  <span>Listening: 8.0 / 9.0</span>
+                  <span className="score-bar"></span>
                 </div>
-                <div className="score-item">
-                  <span>Writing:</span>
-                  <span>7.0</span>
+                <div className="score-item" data-score="83">
+                  <span>Reading: 7.5 / 9.0</span>
+                  <span className="score-bar"></span>
                 </div>
-                <div className="score-item">
-                  <span>Reading:</span>
-                  <span>6.5</span>
+                <div className="score-item" data-score="78">
+                  <span>Writing: 7.0 / 9.0</span>
+                  <span className="score-bar"></span>
                 </div>
               </div>
             </div>

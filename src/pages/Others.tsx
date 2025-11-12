@@ -13,14 +13,11 @@ const Others: React.FC = () => {
         <h1 className="page-title">My Passions</h1>
         
         <section className="intro-section">
-          <div className="intro-card">
-            <p className="intro-text">
-              Beyond AI and data science, I express myself through <strong>photography</strong> and 
-              <strong> graphic design</strong>. I work with lighting, composition, post-processing, and Adobe's creative 
-              suite, creating in the moment. I'm also a proud parent to three amazing cats who remind me that 
-              life happens now, not later.
-            </p>
-          </div>
+          <p className="intro-text">
+            Beyond AI and data science, I express myself through <strong>photography</strong> and 
+            <strong> graphic design</strong>. I work with lighting, composition, post-processing, and Adobe's creative 
+            suite, creating in the moment.
+          </p>
         </section>
 
         <section className="creative-section">
@@ -126,7 +123,10 @@ const Others: React.FC = () => {
               <div className="language-list">
                 <div className="lang-item">
                   <span>English</span>
-                  <strong>IELTS 7.5</strong>
+                  <strong>IELTS 8.0</strong>
+                  <div className="ielts-breakdown">
+                    Speaking: 9.0 | Listening: 8.0 | Reading: 7.5 | Writing: 7.0
+                  </div>
                 </div>
                 <div className="lang-item">
                   <span>Bengali</span>

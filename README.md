@@ -149,7 +149,7 @@ skills = {
 **🎓 B.Sc in Software Engineering** | *Islamic University of Technology* | *2018-2022*  
 **CGPA**: 3.64/4.00 (Last 4 semesters: 3.88)
 
-**📜 IELTS**: Band 7.5 (Speaking: 8.0 | Listening: 7.5 | Writing: 7.0 | Reading: 6.5)
+**📜 IELTS**: Band 8.0 (Speaking: 9.0 | Listening: 8.0 | Reading: 7.5 | Writing: 7.0)
 
 **🏅 Leadership**: Head of Creative Fields - IUT Photography Society | Student Mentor
 
